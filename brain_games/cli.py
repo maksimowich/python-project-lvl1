@@ -20,7 +20,7 @@ def play_rounds(name, get_right_answer):
         if user_answer == right_answer:
             print('Correct!')
         else:
-            print(f'{user_answer} is wrong answer ;(.', end='')
+            print(f'{user_answer} is wrong answer ;(. ', end='')
             print(f'Correct answer was {right_answer}')
             print(f'Let\'s try again, {name}!')
             return
