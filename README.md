@@ -5,6 +5,9 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
+Installation:
+https://asciinema.org/a/lFrBHK3TEoZuuA9zGSQaS3qDh
+
 brain-games:
 https://asciinema.org/a/cLzbaQbjGCEYC1iq60r4YmK8A
 
