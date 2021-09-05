@@ -13,7 +13,7 @@ def greet_and_welcome_user():
     return name
 
 
-def play_game(name, get_right_answer):
+def play_rounds(name, get_right_answer):
     for i in range(3):
         right_answer = get_right_answer()
         user_answer = prompt.string("Your answer: ")
@@ -25,3 +25,9 @@ def play_game(name, get_right_answer):
             print(f'Let\'s try again, {name}!')
             return
     print(f'Congratulations, {name}!')
+
+
+def play_game(task, greet_and_welcome_user, get_right_answer):
+    name = greet_and_welcome_user()
+    print(task)
+    play_rounds(name, get_right_answer)

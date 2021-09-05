@@ -4,9 +4,8 @@ from brain_games.brain_calc import get_right_answer_calc
 
 
 def main():
-    name = greet_and_welcome_user()
-    print('What is the result of the expression?')
-    play_game(name, get_right_answer_calc)
+    task = ('What is the result of the expression?')
+    play_game(task, greet_and_welcome_user, get_right_answer_calc)
 
 
 if __name__ == '__main__':
